@@ -1,9 +1,70 @@
-h1 {
-	text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+	--darkColor: #301934;
+	--lightColor: #f5f5f5;
+	--softFont: 'Ubuntu', sans-serif;
+	--hardFont: monospace;
+}
+
+#topBox {
+	background-color: var(--darkColor);
+	padding: 30px;
+}
+
+.whiteText {
+	color: var(--lightColor);
+	font-family: var(--softFont);
+}
+
+.card-body {
+	background-color: var(--darkColor);
+}
+
+.col-md-8 {
+	background-color: var(--darkColor);
+}
+
+#profile {
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 33%;
+}
+
+main h1 {
+	font-size: 40px;
+	text-align: left;
+	color: var(--lightColor);
+	font-family: var(--softFont);
 	}
 
-.navList {
-	display: inline;
+nav {
+	background-color: var(--darkColor);
+}
+
+p {
+	font-family: var(--hardFont);
+}
+
+@media only screen and (max-width: 768px) {
+	.card-img, .card-img-bottom, .card-img-top {
+		width: 30%;
+		min-width: 200px;
 	}
+
+	.col-md-4 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.card-body {
+		text-align: center;
+	}
+
+	.card-title {
+		text-align: center;
+	}
+}
+
 
 

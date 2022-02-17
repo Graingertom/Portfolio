@@ -1,20 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title> Tom Grainger Portfolio </title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://drive.google.com/uc?export=view&id=1D7b_QcOeB21ARJfB81ttMXTZkNGaWwGW">
+	<title>Tom Grainger Portfolio</title>
 </head>
-
 <body>
 	
-	<nav>
-		<ul>
-			<li class="navList"> About me </li>
-			<li class="navList"> Projects </li>
-			<li class="navList"> Skills </li>
-		</ul>
-	</nav>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">My Portfolio</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">About Me</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Projects</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Skills</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+</header>
 
-	<h1> Tom Grainger </h1>
-
+<main>
+	<section id="topBox">
+		<div class="card mb-3" style="background-color: var(--darkColor); max-width: 100%;">
+		<div style="--bs-gutter-x: 0" class="row no-gutters">
+		  <div class="col-md-4">
+			<img style="border-radius: 33%" src="https://drive.google.com/uc?export=view&id=1X9lG7ndUxt4cEBdniDdVOi9G3zd5mI4V" class="card-img" alt="profile">
+		  </div>
+		  <div class="col-md-8">
+			<div class="card-body">
+			  <h1 class="card-title">Tom Grainger</h1>
+			  <p class="whiteText">I got invested in coding when I looked at moving career from Personal Training after the pandemic. I started working towards learning python for data management but when I started working on web development I found a way to express my creativity with coding which I find amazing.</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
 	<section>
 		<h2> About me </h2>
 		<p> I'm currently learning all the skills I will need to be a successful <b>Full Stack Developer</b>. 
@@ -35,5 +71,6 @@
 			<li> HTML and CSS </li>
 		</ul>
 	</section>
-
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
